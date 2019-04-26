@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "seans-first-website",
+  "homepage": "https://seans-first-website-michaelsolone.surge.sh",
+  "scripts": {
+    "deploy": "surge public https://seans-first-website-michaelsolone.surge.sh",
+    "postdeploy": "echo 'Your site was deployed to https://seans-first-website-michaelsolone.surge.sh'",
+    "start": "browser-sync start --server public --files public"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "stylelint": "^10.0.1",
+    "stylelint-config-standard": "^18.3.0"
+  }
+}
